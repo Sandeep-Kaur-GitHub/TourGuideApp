@@ -21,6 +21,7 @@ public class EducationFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         ArrayList<Word> array_list = new ArrayList<Word>();
+
         array_list.add(new Word("PTU University","hhh",R.drawable.ptu));
         array_list.add(new Word("PTU University","jhg",R.drawable.ptu));
         array_list.add(new Word("PTU University",getResources().getString(R.string.ptudescription),R.drawable.ptu));

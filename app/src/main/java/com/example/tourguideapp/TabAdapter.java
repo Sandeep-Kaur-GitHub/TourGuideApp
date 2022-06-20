@@ -20,20 +20,19 @@ public class TabAdapter extends FragmentPagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-        if(position==0)
-        {
+        if (position == 0) {
             return new EducationFragment();
-        }/*else if(position==1){
-            return new EducationFragment();
+        } else if (position == 1) {
+            return new RestaurantsFragment();
+        } else if (position == 2) {
+            return new AccommodationFragment();
+        } else {
+            return new HistoricalBuildingsFragment();
         }
-        else if(position==2){
-            return new EducationFragment();
-        }*/
-        return new EducationFragment();
     }
 
     @Override
-    public int getCount() {
+    public int getCount()  {
         return 4;
     }
 
@@ -41,17 +40,13 @@ public class TabAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
 
-     if(position==0){
+        if (position == 0) {
             return mContext.getString(R.string.education);
-        } else if(position==1)
-        {
+        } else if (position == 1) {
             return mContext.getString(R.string.restaurants);
-        }
-        else if(position==2)
-        {
+        } else if (position == 2) {
             return mContext.getString(R.string.historialbuildings);
-        }else
-        {
+        } else {
             return mContext.getString(R.string.accommodation);
         }
     }
