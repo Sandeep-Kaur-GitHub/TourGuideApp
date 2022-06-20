@@ -16,16 +16,14 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class EducationFragment extends Fragment {
- Context mContext;
+    Context mContext;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         ArrayList<Word> array_list = new ArrayList<Word>();
         array_list.add(new Word("PTU University","hhh",R.drawable.ptu));
         array_list.add(new Word("PTU University","jhg",R.drawable.ptu));
-      //  array_list.add(new Word("PTU University",mContext.getString(R.string.ptudescription),R.drawable.ptu));
-
-
+        array_list.add(new Word("PTU University",getResources().getString(R.string.ptudescription),R.drawable.ptu));
         Log.i("", "hey" + array_list);
         View view = inflater.inflate(R.layout.fragment_education, container, false);
         ListView list_view = (ListView) view.findViewById(R.id.list_view);

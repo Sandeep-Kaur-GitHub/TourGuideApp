@@ -40,7 +40,7 @@ public class TabAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        String title="hello";
+
      if(position==0){
             return mContext.getString(R.string.education);
         } else if(position==1)
