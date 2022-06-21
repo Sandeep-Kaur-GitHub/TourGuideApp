@@ -25,9 +25,9 @@ public class TabAdapter extends FragmentPagerAdapter {
         } else if (position == 1) {
             return new RestaurantsFragment();
         } else if (position == 2) {
-            return new AccommodationFragment();
-        } else {
             return new HistoricalBuildingsFragment();
+        } else {
+            return new EventsFragment();
         }
     }
 
@@ -44,10 +44,13 @@ public class TabAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.education);
         } else if (position == 1) {
             return mContext.getString(R.string.restaurants);
-        } else if (position == 2) {
+        } else if(position==2)
+        {
             return mContext.getString(R.string.historialbuildings);
-        } else {
-            return mContext.getString(R.string.accommodation);
+        }
+        else
+        {
+            return mContext.getString(R.string.events);
         }
     }
 }

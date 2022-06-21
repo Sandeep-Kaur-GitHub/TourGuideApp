@@ -1,10 +1,21 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
     <string name="restaurants">Restaurants</string>
-    <string name="accommodation">Accommodation</string>
+    <string name="events">Events</string>
     <string name="education">Education</string>
+    <string name="shalimardetail">Located in the heart of the city of Kapurthala, Shalimar Gardens are a hugely frequented tourist spot that provide a momentary escape from the busy life and bustle of the city. The gardens contain the cenotaphs of the Royal family of Kapurthala and are characterized by the marble obelisks in the chambers made of red sandstone.</string>
+    <string name="mosquedetail">Moorish Mosque was commission by Maharaja Jagjit Singh Bahadur and was completed in 1930. The Mosque is indeed an example of the religious tolerance during the time of the Maharaja’s Reign in Kapurthala. The mosque complex comprised of some amazing painting by the Students at Mayo school of arts in Lahore and is located amidst a beautiful garden.
+</string>
+    <string name="placesdetail">The capital of the princely State of Kapurthala, the city is often referred to as the ‘Paris of Punjab’ due to its architecture. The monuments and gardens in the city are evident of the Indo-Saracen and French style architecture.</string>
+
+    <string name="placesKpt">Wounderful Tourist Places of Kapurthala</string>
     <string name="historialbuildings">HistorialBuildings</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jagjitpalace">Jagatjit Palace was the residence of the erstwhile Maharaja of the State of Kapurthala, Maharaja Jagatjit Singh. The palace was built in 1908 and is has a remarkable Indo-Saracen architecture and is modeled after the Versailles Palace. The Jagatjit Palace is now inhabited by the Sainik School to train boys for the National Defense Academy.</string>
+    <string name="hugswithmugs">Most guests recommend trying perfectly cooked brownies. This cafe offers great coffee among its drinks. Enjoyable service is something that people highlight in their comments. </string>
+    <string name="londonhotel">Celebrated as one of the city best is, London Hotel in Kapurthala. The hotel is strategically located in Sultanpur Road. Having been established in the year 2010, this hospitality destination has grown to become the ideal place for travelers.</string>
+    <string name="punkajrestaurant">Pankaj Fast Food at Kpt makes sure one has a great food experience by offering highly palatable food.</string>
+    <string name="ananddescription">Main aim of ACEM is providing value based and affordable education to the students by enhancing their interfacing with the society in general and Industry in particular.</string>
+    <string name="cemdescription">the institute was started for uplifting the status of technical education in the remote area of Dist. Kapurthala.In order to achieve these goals, modern teaching aids are used in the college. Special emphasis is laid on theoretical as well as practical knowledge for preparing the students to face the new challenges in the field of Engineering.</string>
     <string name="ptudescription">It offers courses in Technology, Management, Pharmaceutical, and more from various disciplines.</string>
 </resources>
