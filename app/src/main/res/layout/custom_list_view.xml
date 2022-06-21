@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:id="@+id/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        tools:text="Album"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_below="@id/textview_title"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:layout_height="fill_parent"/>
+
+    <TextView
+        android:id="@+id/textview_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:layout_below="@id/image_view"
+        tools:text="Artist"/>
+    <Button
+        android:layout_below="@id/textview_description"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:id="@+id/location_button"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+</ScrollView>
